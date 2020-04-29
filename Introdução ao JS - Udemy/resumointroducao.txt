@@ -1,0 +1,24 @@
+    Link do Curso: https://www.udemy.com/course/introducao-ao-javascript/
+
+    Declaração de Variáveis:
+    var = PODE ser atribuído um número -> var x = 10; (NÃO RECOMENDADO)
+    let = variável usada com escopo de bloco -> let x = 10;    
+    const = apenas p/ leitura, não sendo possível alterá-la depois -> const ola = "Olá";
+    "_" e "$" são mais utilizados em bibliotecas e frameworks;
+
+    Máximos e Mínimos:
+    console.log(Number.MAX_VALUE); or console.log(Number.MIN_VALUE);
+
+    Comparações que levam em consideração o valor e tipo de dado, utilize ===;
+
+    Null: falta de valor de qualquer tipo de dado, valor = vazio;
+    Undefined: acesso a variável sem antes atribuir um valor, qual o tipo de dado?;
+    
+    Objeto: tipo de dado composto por outros tipos (carro tem roda, porta..);
+    
+    For of: específico para iterar(percorrer) itens de uma lista;
+    Ex:
+    let dias [segunda, terça, quarta, quinta, sexta, sabado, domingo];
+    for(let dia of dias) {
+        console.log(dia);
+    }
